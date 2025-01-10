@@ -7,6 +7,7 @@ body {
     text-align: center;
     color: #258348;
     font-size: x-large;
+    margin-top: 20px;
   }
 
   .pricing-container {
@@ -20,6 +21,7 @@ body {
   .pricing-plan {
     flex: 1;
     max-width: 600px;
+    align-items: flex-start;
     padding: 10px;
     background-color: #f2f2f2;
     border-radius: 5px;
@@ -30,6 +32,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    color: #333;
   }
 
   .plan-price {
@@ -46,6 +49,7 @@ body {
 
   .plan-features li {
     margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
   }
 
   .plan-button {
